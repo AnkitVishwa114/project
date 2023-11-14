@@ -1,0 +1,540 @@
+/* =======================CATEGORY PAGE STRAT======================= */
+
+/* Category Section Start */
+
+.section{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    background: #fff;
+    display: flex;
+}
+
+.section .ctg{
+    width: 75%;
+    height: auto;
+    margin: 22px;
+    padding: 20px 0px 0px 20px;
+}
+
+.section .ctg .song{
+    width: 100%;
+    height: auto;
+}
+
+.section .ctg .song .ctg_name{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #202020;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.section .ctg .song .ctg_song_cards{
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.section .ctg .song .ctg_song_cards .card{
+    width: 200px;
+    height: 235px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #202020;
+}
+
+.section .ctg .song .ctg_song_cards .card .img{
+    width: 100%;
+    height: 200px;
+}
+
+.section .ctg .song .ctg_song_cards .card .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.section .ctg .song .ctg_song_cards .card .title{
+    border: 1px solid #d9d9d9;
+    background: #e8e8e8;
+    width: 100%;
+    height: 35px;
+}
+
+.section .ctg .song .ctg_song_cards .card .title p{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section .ctg .song .ctg_song_btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.section .ctg .song .ctg_song_btn button{
+    padding: 8px 20px;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.section .ctg .song .ctg_song_btn button:nth-child(1){
+    background-color: #fff;
+    border: 1px solid #ff0000;
+    outline: none;
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* aside start */
+.section .aside{
+    width: 25%;
+    height: auto;
+    margin: 22px 22px 22px 0px;
+    padding: 20px 20px 20px 0px;
+}
+
+.section .aside h2{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #202020;
+    color: #fff;
+}
+
+.section .aside .ctg_sel{
+    height: auto;
+    padding: 5px;
+    background: #e8e8e8;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 25px;
+}
+
+.section .aside .ctg_sel ul{
+    padding: 10px;
+}
+
+.section .aside .ctg_sel ul li{
+    list-style-type: none;
+    line-height: 1.7;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.section .aside .ctg_sel ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.section .aside .tren_ctg_sel{
+    height: auto;
+    padding: 5px;
+    background: #e8e8e8;
+    border: 1px solid #d9d9d9;
+}
+
+.section .aside .tren_ctg_sel ul{
+    padding: 10px;
+}
+
+.section .aside .tren_ctg_sel ul li{
+    list-style-type: none;
+    line-height: 1.7;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.section .aside .tren_ctg_sel ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+/* Song Content Start */
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px 60px 60px 60px;
+}
+
+main h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+main p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* =======================SINGLE SONG PAGE STRAT======================= */
+
+.content{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    background: #fff;
+    display: flex;
+}
+
+.content .song_content{
+    width: 75%;
+    height: auto;
+    margin: 22px;
+    padding: 20px 0px 0px 20px;
+}
+
+.content .song_content .hero_song_content{
+    width: 100%;
+    height: auto;
+}
+
+.content .song_content .hero_song_content .song_title{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #202020;
+    color: #fff;
+}
+
+.content .song_content .hero_song_content .song_main_content{
+    display: flex;
+    gap: 3%;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_img{
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px 10px 0px;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc{
+    width: 67%;
+    height: auto;
+    margin: 14px 10px 10px 0px;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc table{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc table .tr{
+    width: 100%;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc table .tr .td1{
+    width: 30%;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc table .tr .td2{
+    width: 70%;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc table tbody .tr .td{
+    padding: 3px 3px 3px 0px;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc table tbody .tr .td a{
+    text-decoration: none;
+    color: #202020;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc .music_player{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.content .song_content .hero_song_content .song_main_content .song_main_content_desc .music_player audio{
+    width: 350px;
+}
+
+.content .song_content .hero_song_content .downlad{
+    width: 100%;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.content .song_content .hero_song_content .downlad button{
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 6px 20px;
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* aside */
+
+.aside{
+    width: 25%;
+    height: auto;
+    margin: 22px 22px 22px 0px;
+    padding: 20px 20px 20px 0px;
+}
+
+.aside h2{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #202020;
+    color: #fff;
+}
+
+.aside .ctg_sel{
+    height: auto;
+    padding: 5px;
+    background: #e8e8e8;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 25px;
+}
+
+.aside .ctg_sel ul{
+    padding: 10px;
+}
+
+.aside .ctg_sel ul li{
+    list-style-type: none;
+    line-height: 1.7;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.aside .ctg_sel ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.aside .tren_ctg_sel{
+    height: auto;
+    padding: 5px;
+    background: #e8e8e8;
+    border: 1px solid #d9d9d9;
+}
+
+.aside .tren_ctg_sel ul{
+    padding: 10px;
+}
+
+.aside .tren_ctg_sel ul li{
+    list-style-type: none;
+    line-height: 1.7;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.aside .tren_ctg_sel ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+/* lyrics */
+
+.lyrics{
+    width: 100%;
+    height: auto;
+}
+
+.lyrics h2{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #202020;
+    color: #fff;
+    margin-bottom: 10px;
+    margin: 15px 0; 
+}
+
+.para.more {
+    display: block;
+    max-height: 100%;
+}
+
+.lyrics .para{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    max-height: 150px;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    white-space: pre-line;
+}
+
+.lyrics .lyrics_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lyrics .lyrics_btn button{
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 1px solid #ff0000;
+    outline: none;
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* related songs */
+
+.related{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.related h2{
+    text-align: left;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #202020;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.related .related_songs{
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.related .related_songs .card{
+    width: 200px;
+    height: 235px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #202020;
+}
+
+.related .related_songs .card .img{
+    width: 100%;
+    height: 200px;
+}
+
+.related .related_songs .card .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.related .related_songs .card .title{
+    border: 1px solid #d9d9d9;
+    background: #e8e8e8;
+    width: 100%;
+    height: 35px;
+}
+
+.related .related_songs .card .title p{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.view_all_btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: -12px;
+}
+
+.view_all_btn button{
+    padding: 8px 20px;
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
